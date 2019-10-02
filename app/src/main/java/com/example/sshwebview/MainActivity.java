@@ -17,6 +17,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(mahanweb);
         mahanweb.loadUrl("http://127.0.0.1/ssh2");
         WebSettings webSettings = mahanweb.getSettings();
-        webSettings.setJavaScriptEnabled(true);
+        webSettings.setJavaScriptEnabled(false);
     }
 }
